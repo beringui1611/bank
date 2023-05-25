@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+header {
+    margin-top: 10px;
+    margin-bottom: 163px;
+}
+
+a {
+    margin: 47px 20px 163px 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+a:hover {
+
+    opacity: 0.5;
+
+
+}
+
+button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    Width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+button:active {
+    opacity: 0.16;
+
+}
+
+img {
+    display: inline-block;
+    margin-left: 121px;
+   
+}
+
+div {
+    display: inline-block;
+
+}
+
+
+h1 {
+    margin-left: 51px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-bottom: 40px;
+    width: 582px;
+}
+
+p {
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 55px;
+    text-align: center;
+
+}
+
+#learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .link{
+        display: none;
+
+    }
+
+    button {
+        margin: 17px 250px 15px;
+        width: 91px;
+        height: 31px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+
+
+    }
+
+    img {
+    display: block;
+        width: 312px;
+        height: 288px;
+        position: fixed;
+        right:250px;
+        margin-top: 56px;
+        top: 45%;
+        
+
+    }
+
+    div{
+        display: block;
+
+
+
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        color: #161A49;
+        width: 278px;
+        height: 60px;
+        margin-left: 50px;
+
+
+    }
+
+    p {
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        width: 304px;
+        margin-left:50px;
+        
+    }
+
+    #learn-more {
+
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        width: 112px;
+        margin-left: 150px;
+        
+        
+        
+    }
+
+
+}
